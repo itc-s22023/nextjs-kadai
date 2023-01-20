@@ -1,19 +1,23 @@
-import styles from '../styles/page2.module.css'
+import styles from '../styles/page6.module.css'
+export default function Home(){
+	return(
+		<div className={styles.box}>
+    <h1>Prep Times</h1>
+    <h2>Headline</h2>
+    <h3>Article 1</h3>
+    <p>sentence comes here sentence comes here sentence comes here sentence comes here</p>
+    <h3>Article 2</h3>
+    <p>sentence comes here sentence comes here sentence comes here sentence comes here</p>
+		<style jsx>
+		{`
+		h1{
+		border-bottom: 1px solid #999;
+  padding-bottom: 5px;
+  text-align: center;
+  }
+  `}
+		</style>
+		</div>
 
-export default function page3 () {
-  return (
-    <div className={styles.box}>
-      <div className={styles.head}>
-        <h1>Cafe Prep</h1>
-      </div>
-      <nav className={styles.body}>
-        <h2>Drink</h2>
-        <ul>
-          <li>Coffee</li>
-          <li>Latte</li>
-          <li>Espresso</li>
-        </ul>
-      </nav>
-    </div>
-  )
+	);
 }
