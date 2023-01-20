@@ -3,7 +3,7 @@ export default function Home(){
 
 	return (
 		<>
-		<header>HAE</header>
+		<header><h2>課題のページ</h2></header>
 		<main>
 		<div>
 		<ul>
@@ -42,12 +42,12 @@ export default function Home(){
 		</li>
 		</ul>
 
-		<h1>cube</h1>
-		<p>合うおｔ</p>
+	
 		</div>
 		</main>
 
-		<footer>Foorer</footer>
+		<footer></footer>
 		</>
+
 	)
 }
